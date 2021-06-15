@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Intention Timer</title>
+  </head>
+  <body>
+    <header>
+      <h1>INTENTION TIMER</h1>
+    </header>
+    <main>
+      <div>
+        <h2>New Activity</h2>
+      </div>
+      <section>
+        <div>
+          <h3> Select a category:</h3>
+        </div>
+        <section>
+          <img src="./assets/study.svg" alt="study-icon">
+          <h4>Study</h4>
+        </section>
+        <section>
+          <img src="./assets/meditate.svg" alt="meditate-icon">
+          <h4>Meditate</h4>
+        </section>
+        <section>
+          <img src="./assets/exercise.svg" alt="exercise-icon">
+          <h4>Exercise</h4>
+        </section>
+      </section>
+      <form>
+        <label for="accomplishment">What would you like to accomplish during this time? </label>
+        <input type="text" maxlength="60" name="accomplishment">
+        <div>
+          <label for="minutes">Minutes</label>
+          <input type="time" name="minutes">
+          <label for="seconds">Seconds</label>
+          <input type="time" name="seconds">
+        </div>
+        <button type="submit" disabled>START ACTIVITY</button>
+      </form>
+    </main>
+    <aside>
+      <div>
+        <h2> Past Activities</h2>
+      </div>
+      <section>
+        <p> You haven't logged any activies yet.</p>
+        <p> Complete the form to the left to get started!</p>
+      </section>
+    </aside>
+  <script type="text/javascript" src="Activity.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
